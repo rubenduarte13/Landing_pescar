@@ -1,4 +1,51 @@
-*{
-    margin:0 ;
-    padding: 0;
+/* Fuente */
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+/* Reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
+pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
+s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
+figure, header, nav, section, article, aside, footer, figcaption {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+/* Global */
+:root {
+    --primary-color: #3d24fa;
+    --secondary-color: #3d24fa;
+    --tertiary-color: #fff;
+    --quaternary-color: #2bfcb3;
+    --quinary-color: #7a7a7a;
+    --title-color: #010b54;
+    --text-color: #180e63;
+  }
+  html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1REM = 10px */
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+h1, 
+h2, 
+h3 {
+    font-family: 'Poppins', serif;
+    margin: 0 0 2rem 0;
+}
+h1 {
+    font-size: 4rem;
+}
+h2 {
+    font-size: 3rem;
+}
+h3 {
+    font-size: 2rem;
 }
