@@ -108,3 +108,30 @@ em {
     margin: 0 1.5rem;
 }
 
+/* SECCION PROMOCION */
+.row2{
+    display: flex;
+    align-items: center;
+    margin: 0 1.5rem;
+}
+.promocion{
+    padding: 10rem 0;
+}
+.promocion .imagen{
+    margin-right: 8rem ;
+}
+.promocion ul li{
+    display: inline-block;
+    margin-bottom: 6rem;
+}
+
+.lista ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ .lista img{
+    display: inline-block;
+    float: left;
+    margin-right: 30px;
+}
