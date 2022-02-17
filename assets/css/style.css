@@ -49,3 +49,62 @@ h2 {
 h3 {
     font-size: 2rem;
 }
+
+/* SECCION NOSOTROS */
+
+.centrar-contenido{
+    margin-bottom: 7rem;
+}
+.centrar-contenido h2{
+    margin-top: 0;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+    color: var(--title-color);
+    margin-bottom: 2rem;
+}
+em {
+    font-style: normal;
+    color: var(--quaternary-color);
+}
+.contenedor{
+    width: 100%;
+    padding: 0 1.5rem;
+    margin: auto;
+    max-width: 1140px;
+}
+.nosotros{
+    padding: 10rem 0rem;
+    
+}
+.texto{
+    border-radius: 1.5rem;
+    padding: 6rem 3rem;
+    text-align: center;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.1);
+    background-color: var(--primary-color);
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    max-width: 50rem;
+    color: var(--tertiary-color);
+}
+.descarga{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.descarga img{
+    height: 10rem;
+    width: auto;
+    transition: all 0.3s ease-in-out;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 1.5rem;
+}
+
